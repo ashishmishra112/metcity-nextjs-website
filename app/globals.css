@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -5,22 +6,26 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ededed;
+    --foreground: #0a0a0a;
+    font-family: var(--font-jacques-francois);
+    font-family: var(--font-playfairdisplay);
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-jacques-francois);
+  width: 100%;
+}
+
+.font-jacques {
+  font-family: 'Jacques', serif;
+}
+
+.jacques-francois-regular {
+font-family: "Jacques Francois", serif;
 }
