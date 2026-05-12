@@ -6,8 +6,8 @@ export default function Features() {
     
     return (
         <>
-          <div className="bg-[#f4f1e8] flex flex-col lg:flex lg:flex-row gap-8 md:gap-3 justify-center items-center h-190 lg:h-150">
-            <div className="flex flex-col lg:w-1/2 gap-4 lg:gap-8">   
+          <div className="bg-[#f4f1e8] flex flex-col md:flex md:flex-row gap-8 md:gap-3 justify-center items-center h-190 md:h-130 lg:h-150">
+            <div className="flex flex-col md:w-1/2 gap-4 lg:gap-8">   
             <div className="flex flex-col text-center gap-4 lg:gap-0">
               <h2 className="text-green-600 text-xl md:text-lg lg:text-3xl font-semibold ">MET Habitat - Premium Villa Living</h2>
               <p className="lg:text-left text-xs md:text-xs lg:text-sm px-8 lg:px-0 lg:pl-35 font-semibold">
@@ -39,14 +39,14 @@ export default function Features() {
                 </div>
               </div>
             </div>
-              <div className="flex lg:w-1/2 justify-center items-center">
-                <Image src="/assets/met_economic.webp" alt="meteco" width={250} height={150} className="md:w-70 md:h-125 lg:w-120 lg:h-120" />
+              <div className="flex md:w-1/2 justify-center items-center">
+                <Image src="/assets/met_economic.webp" alt="meteco" width={250} height={150} className="md:w-70 md:h-70 lg:w-120 lg:h-120" />
               </div>
             </div>
             
                     
             <div className=" bg-[url('/assets/bg.jpg')] bg-cover bg-center bg-no-repeat">           
-            <div className="w-full h-80 lg:h-120 border-b-blue-900 flex flex-col justify-center lg:items-start gap-6 lg:pl-30">
+            <div className="w-full h-80 md:h-100 lg:h-120 border-b-blue-900 flex flex-col justify-center lg:items-start gap-6 md:pl-20 lg:pl-30">
               <div className="flex flex-col gap-2 md:gap-4">
                 <h2 className="text-zinc-100 md:text-white text-center md:text-left text-base md:text-2xl lg:text-4xl font-bold">Walk-To-Work. LiveGreen. Stay Connected.</h2>
                 <p className="text-zinc-100 md:text-white text-center md:text-left text-[10px] md:text-base lg:text-lg px-10 lg:px-0 lg:pr-130 ">
@@ -62,7 +62,7 @@ export default function Features() {
                 </p>
               </div>
 
-              <div className="flex justify-center md:pl-12 lg:pl-2">
+              <div className="flex justify-center md:pl-2 lg:pl-2">
                 <button className="bg-green-600 rounded-4xl text-white py-2 px-6 md:py-4 md:px-10">Know More</button>
               </div>
             </div>

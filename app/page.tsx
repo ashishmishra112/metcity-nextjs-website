@@ -20,7 +20,7 @@ export default function Home() {
           {/* HEADER */}
           <div className="grid place-items-center">
             <div className="flex flex-row gap-60 md:gap-6 lg:gap-72"> 
-            <Image src="/assets/met2.png" alt="metcity" width={50} height={50} className="md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px]" />            
+            <Image src="/assets/met2.png" alt="metcity" width={50} height={50} className="md:w-15 md:h-15 lg:w-20 lg:h-20" />            
             <header className="hidden md:block">
               <ul className="flex gap-6 text-black font-jacques md:pt-5 lg:pt-6 font-poppins">
                 <li className="text-green-600 cursor-pointer md:text-sm lg:text-xl font-semibold">Home</li>
@@ -38,9 +38,9 @@ export default function Home() {
           </div>
           </div>
           {menuOpen && (
-            <div className="md:hidden bg-white flex justify-end">
+            <div className="md:hidden bg-[linear-gradient(135deg,_#1CB5E0,_#000851)] text-white flex justify-end">
               <ul className="border w-40 flex flex-col items-start text-right  pl-14 gap-1 py-1 font-jacques">
-                <li className="text-green-600">Home</li>
+                <li className="text-zinc-950 font-semibold">Home</li>
                 <li>Amenities</li>
                 <li>Floor Plan</li>
                 <li>Price List</li>
@@ -70,7 +70,7 @@ export default function Home() {
         </section>
 
         <section className=" bg-white z-10">
-          <div className="bg-[#ebebeb] h-280 lg:h-120 flex flex-col justify-center items-center gap-6 ">
+          <div className="bg-[#ebebeb] h-280 md:h-100 lg:h-120 flex flex-col justify-center items-center gap-6 ">
               <div className="flex ">
                 <h2 className="text-green-600 text-base text-center md:text-xl lg:text-3xl font-jacques">Where Industry Meets Innovation And Modern Living</h2>
               </div>
@@ -106,11 +106,11 @@ export default function Home() {
                   <h4 className="text-center text-sm">IGBC Platinum Certified <br className="block md:hidden lg:block"/> Smart City</h4>
                   <p className="text-center text-xs">For a planet-first, people-friendly <br className="block md:hidden lg:block"/> ecosystem</p>
                 </div>
-                <div className="border border-gray-400 shadow-[0_0_10px_rgba(0,0,0,0.25)] flex flex-col p-5 px-6 md:py-0 md:px-[28px] md:justify-between md:h-full lg:px-[37px] lg:py-6  md:gap-4">
+                <div className="border border-gray-400 shadow-[0_0_10px_rgba(0,0,0,0.25)] flex flex-col p-5 px-6 md:py-0 md:px-7 md:justify-between md:h-full lg:px-[37px] lg:py-6  md:gap-4">
                   <h4 className="text-center text-sm">600+ Companies from 10+ <br className="block md:hidden lg:block"/> Countries</h4>
                   <p className="text-center text-xs">Already operational or under <br className="block md:hidden lg:block"/> development</p>
                 </div>
-                <div className="border border-gray-400 shadow-[0_0_10px_rgba(0,0,0,0.25)] flex flex-col p-3 px-6 md:py-0 md:px-0 md:justify-between md:h-full lg:px-[36px] lg:py-6 md:gap-4">
+                <div className="border border-gray-400 shadow-[0_0_10px_rgba(0,0,0,0.25)] flex flex-col p-3 px-6 md:py-0 md:px-0 md:justify-between md:h-full lg:px-9 lg:py-6 md:gap-4">
                   <h4 className="text-center text-sm">Inclusive Community <br className="block md:hidden lg:block"/> Development</h4>
                   <p className="text-center text-xs">With access to skilled workforce <br className="block md:hidden lg:block"/> education, and social <br className="block md:hidden lg:block"/> infrastructure</p>
                 </div>
@@ -119,7 +119,7 @@ export default function Home() {
           </div>
 
           {/* Architecture & Maps Section */}
-          <div className="bg-[#f4f1e8] flex flex-col justify-center items-center h-180 lg:h-100 gap-8">
+          <div className="bg-[#f4f1e8] flex flex-col justify-center items-center h-180 md:h-80 lg:h-100 gap-8">
             <div className="flex font-jacques justify-start items-center">
               <h2 className="text-green-600 text-2xl md:text-xl lg:text-3xl">Floor Plan</h2>
             </div>

@@ -6,7 +6,7 @@ export default function Gallery() {
     
     return (
         <>
-          <div className="bg-[#f5f2e9] flex flex-col gap-6 justify-center items-center h-250 lg:h-150"> 
+          <div className="bg-[#f5f2e9] flex flex-col gap-6 justify-center items-center h-250 md:h-140 lg:h-150"> 
               <div className="flex flex-row font-jacques">
                <h2 className="text-green-600 text-2xl md:text-2xl lg:text-3xl font-bold">Our Gallery</h2>
               </div>

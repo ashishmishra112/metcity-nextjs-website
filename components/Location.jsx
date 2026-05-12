@@ -6,11 +6,11 @@ export default function Location() {
     
     return (
         <>
-          <div className="relative border-t border-zinc-50 shadow-[inset_0_1px_10px_rgba(0,0,0,0.2)] bg-[#f4f1e8] flex flex-col lg:flex lg:flex-row justify-center items-center gap-8 lg:gap-20 h-140">
+          <div className="relative border-t border-zinc-50 shadow-[inset_0_1px_10px_rgba(0,0,0,0.2)] bg-[#f4f1e8] flex flex-col md:flex md:flex-row justify-center items-center gap-8 lg:gap-20 h-140 md:h-110">
             {/* <div className="flex flex-row font-jacques justify-center items-start md:justify-start md:items-center">
                 <button className="md:border-b-none rounded-lg md:rotate-90 bg-green-600 text-white py-2 px-6 md:py-2 md:px-1 font-bold hidden md:block"> &ordm; Query Now</button>
             </div> */}
-            <div className="w-80 h-50 md:h-95 lg:h-95 lg:w-140">
+            <div className="w-80 h-50 md:w-100 md:h-75 lg:w-140 lg:h-95">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1754.2757374872476!2d77.1030103050649!3d28.43278779077166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1f54f16ced07%3A0xb22fdbe424a0242b!2sSector%2054%20Chowk!5e0!3m2!1sen!2sin!4v1773394716577!5m2!1sen!2sin" className="w-full h-full" style={{ border: 0 }} loading="lazy"></iframe>
             </div> 
             <div className="flex flex-col font-jacques gap-1">

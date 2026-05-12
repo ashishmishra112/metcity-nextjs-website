@@ -6,8 +6,8 @@ export default function ContactForm() {
     
     return (
         <>
-            <div className="  bg-[#f4f1e8] flex flex-col justify-center items-center gap-6 md:gap-10 h-240 lg:h-200">
-            <div className="flex flex-col lg:flex lg:flex-row lg:gap-0"> 
+            <div className="  bg-[#f4f1e8] flex flex-col justify-center items-center gap-6 md:gap-10 h-240 md:h-150 lg:h-200">
+            <div className="flex flex-col md:flex md:flex-row lg:gap-0"> 
             <div className="flex flex-col font-jacques lg:justify-start lg:items-start gap-4 md:gap-1 lg:gap-2 lg:w-1/2 lg:pl-20">
                 <h2 className="text-green-600 text-center md:text-left text-lg md:text-xl lg:text-3xl">A Masterpiece In Motion</h2>
                 <p className="text-[10px] lg:text-base text-center md:text-left tracking-widest px-6 lg:px-0">
